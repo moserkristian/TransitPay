@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitPay.AppHost", "TransitPay.AppHost\TransitPay.AppHost.csproj", "{6139A9F9-A823-4506-9872-BE3557C021AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitPay.ServiceDefaults", "TransitPay.ServiceDefaults\TransitPay.ServiceDefaults.csproj", "{2BE43CAD-7ED9-CC0E-F03B-9C4ED0CB5CA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitPay.ApiService", "TransitPay.ApiService\TransitPay.ApiService.csproj", "{714C9509-57F6-CB7E-9B63-093FF86EF34F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitPay.Web", "TransitPay.Web\TransitPay.Web.csproj", "{C246D294-E655-6AFE-04B7-CB751F7A9484}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TransitPay.Tests", "TransitPay.Tests\TransitPay.Tests.csproj", "{C544D089-D503-DCA9-2E08-8353B543EE34}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6139A9F9-A823-4506-9872-BE3557C021AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6139A9F9-A823-4506-9872-BE3557C021AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6139A9F9-A823-4506-9872-BE3557C021AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6139A9F9-A823-4506-9872-BE3557C021AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BE43CAD-7ED9-CC0E-F03B-9C4ED0CB5CA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BE43CAD-7ED9-CC0E-F03B-9C4ED0CB5CA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BE43CAD-7ED9-CC0E-F03B-9C4ED0CB5CA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BE43CAD-7ED9-CC0E-F03B-9C4ED0CB5CA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{714C9509-57F6-CB7E-9B63-093FF86EF34F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{714C9509-57F6-CB7E-9B63-093FF86EF34F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{714C9509-57F6-CB7E-9B63-093FF86EF34F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{714C9509-57F6-CB7E-9B63-093FF86EF34F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C246D294-E655-6AFE-04B7-CB751F7A9484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C246D294-E655-6AFE-04B7-CB751F7A9484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C246D294-E655-6AFE-04B7-CB751F7A9484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C246D294-E655-6AFE-04B7-CB751F7A9484}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C544D089-D503-DCA9-2E08-8353B543EE34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C544D089-D503-DCA9-2E08-8353B543EE34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C544D089-D503-DCA9-2E08-8353B543EE34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C544D089-D503-DCA9-2E08-8353B543EE34}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {654F3799-E3CA-429F-A6D1-8F0901EF49F6}
+	EndGlobalSection
+EndGlobal
