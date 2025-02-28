@@ -1,0 +1,6 @@
+@SettlementMicroservice.Api_HostAddress = http://localhost:5298
+
+GET {{SettlementMicroservice.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
